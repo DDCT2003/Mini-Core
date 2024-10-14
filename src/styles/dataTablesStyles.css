@@ -1,0 +1,143 @@
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #001e4b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.table-wrapper {
+  background-color: #fff;
+  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #003a7c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font: bold;
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background-color: #004855;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.filter-section label {
+  font-size: 14px;
+  color: #555;
+}
+
+.filter-section input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.filter-section input:focus {
+  border-color: #007bff;
+}
+
+.filter-button {
+  padding: 10px 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #7aff00;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 500px;
+}
+
+.filter-button:hover {
+  background-color: #00b31e;
+}
+
+.dataTable {
+  width: 100%;
+}
+
+.dataTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataTable th,
+.dataTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dataTable th {
+  background-color: #e60000;
+}
+
+.dataTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.dataTable .pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.dataTable .pagination li {
+  margin: 0 5px;
+}
+
+.dataTable .pagination li a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dataTable .pagination li a:hover {
+  background-color: #0056b3;
+  color: white;
+}
